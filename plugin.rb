@@ -26,7 +26,7 @@ after_initialize do
   # SP customisation: add SiteCustomization to add in crawler links
   header = <<-EOS.strip_heredoc.chomp
     <noscript>
-      <a class="header-link" href="http://bbs.dmgeek.com/categories" tabindex="2">论坛首页</a>
+      <a class="header-link" href="http://bbs.dmgeek.com/categories" tabindex="2">版块</a>
       <a class="header-link" href="http://bbs.dmgeek.com/c/vrdiscuss" tabindex="3" title="VR虚拟现实话题讨论">讨论区</a>
       <a class="header-link" href="http://bbs.dmgeek.com/c/vrdevices" tabindex="4" title="各种VR设备信息及评测">设备区</a>
       <a class="header-link" href="http://bbs.dmgeek.com/c/resource" tabindex="5" title="视频资源及游戏工具下载">资源区</a>
